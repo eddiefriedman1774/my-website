@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edward Friedman's Website!</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
 <header class="main-header" >
 <h1>Edward Friedman</h1>
-<h3>"If you will it, it is no dream - Theodor Herzl</h3>
+<h3>"If you will it, it is no dream" - Theodor Herzl</h3>
 </header>
-
-<nav>
- Incoming Master Student at NYU in Biology | Student at Northwestern Bootcamp & UTHSC Pharm Tech Program
-</nav>
+<div id="nav-placeholder">
+    <script>
+        $(function(){
+          $("#nav-placeholder").load("nav.html");
+        });
+   </script>        
+</div>
 
 <main>
    
@@ -34,6 +38,7 @@
     <ul> 
        <li><a href="https://www.linkedin.com/in/edward-friedman-699377225/">Linkedin</a></li>
        <li><a href="https://www.instagram.com/eddie.friedman/">Instagram</a></li>
+       <li><a href="./photo.html">Photography!</li>
 </ul>
 </footer>
 </body>
