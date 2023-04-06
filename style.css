@@ -1,5 +1,40 @@
-#ProfilePic {
-    width: 500px;
-    height: 500px;
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  header {
+    padding: 50px;
+    text-align: center;
+    background: #57068c;
+    color: #fff;
+  }  
+nav {
+    font-family:arial;
+    margin:0;
+    color:#fff;
+    padding:10px;
+    display:flex;
+    background-color: #104076 ;
+}
+main {
+font-size:13px;
+font-family:arial;
+margin:0;
+display:auto;
+text-align: center;
+}
 
+#ProfilePic {
+    margin:auto;
+    padding:auto;
+    display:auto;
+    height:230px;
+    width:230px;
+}
+
+footer {
+    font-size:18px;
 }
