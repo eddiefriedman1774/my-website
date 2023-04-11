@@ -8,6 +8,15 @@
     padding:15px;
     background-color: #d9dcd6;
   }
+  img {
+    float: left;
+    width:  350px;
+    padding:10px;
+    background-color:darkslateblue;
+    height: 350px;
+    object-fit: cover;
+}
+
 
 .index {
   font-family: Arial, Arial, Helvetica, sans-serif;
