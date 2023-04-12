@@ -1,58 +1,62 @@
 * {
-    box-sizing: border-box;
-  }
-  body {
-    font-family: Arial;
-    margin: 0;
-    font-size: 10px;
-    padding:15px;
-    background-color: #d9dcd6;
-  }
-  .main-header{
-    display:flex;
-    justify-content:space-between;
-    padding:15px;
-
-
-  }
-  header {
-    text-align: right;
-    background: #57068c;
-    color: #fff;
-    font-size: large;
-  }  
-nav {
-    font-family:arial;
-    margin:0;
-    color:#fff;
-    padding:25px;
-    display:flex;
-    background-color: #104076 ;
-    font-size:large;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: Arial;
+  margin: 0;
+  font-size: 10px;
+  padding:15px;
+  background-color: #d9dcd6;
+}
+
+.main-header {
+  display:flex;
+  justify-content:space-between;
+  padding:15px;
+}
+
+header {
+  text-align: right;
+  background: #57068c;
+  color: #fff;
+  font-size: large;
+}
+.quote:hover {
+  color:greenyellow;
+}
+nav {
+  font-family:arial;
+  margin:0;
+  color:#fff;
+  padding:25px;
+  display:flex;
+  background-color: #104076 ;
+  font-size:large;
+}
+
 main {
-font-size:13px;
-font-family:arial;
-margin:0;
-color:black;
-background-color:beige ;
-display:auto;
-text-align: center;
+  font-size:13px;
+  font-family:arial;
+  margin:0;
+  color:black;
+  background-color:beige ;
+  display:auto;
+  text-align: center;
 }
 
 #ProfilePic {
-    margin:auto;
-    padding:auto;
-    display:auto;
-    height:230px;
-    width:230px;
+  margin:auto;
+  padding:auto;
+  display:auto;
+  height:230px;
+  width:230px;
 }
 
 footer {
-    font-size:19px;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
-    display:flex;
-    padding:15px;
-
+  font-size:19px;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+  display:flex;
+  padding:15px;
 }
