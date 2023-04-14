@@ -36,7 +36,7 @@ nav {
 }
 
 main {
-  font-size:13px;
+  font-size:2em;
   font-family:arial;
   margin:0;
   color:black;
@@ -51,6 +51,13 @@ main {
   display:auto;
   height:230px;
   width:230px;
+}
+
+#music {
+  font-size: 2em;
+  display: block;
+  background-color: darkseagreen;
+  text-align: center;
 }
 
 footer {

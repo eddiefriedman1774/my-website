@@ -1,0 +1,16 @@
+.nav-placeholder{
+    font-family:arial;
+    margin:0;
+    color:#fff;
+    padding:25px;
+    display:flex;
+    background-color: #104076 ;
+    font-size:large;
+}
+
+head {
+    font-size: 10em;
+}
+.index {
+    font-family: arial;
+}
