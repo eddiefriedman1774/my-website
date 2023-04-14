@@ -4,8 +4,8 @@
     color:#fff;
     padding:25px;
     display:flex;
-    background-color: #104076 ;
     font-size:large;
+    background-image:linear-gradient(#fff,#104076);
 }
 
 
@@ -13,17 +13,30 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     text-align: right;
+    background-image:linear-gradient(rgb(188, 192, 246),rgb(5, 62, 168));
+    color:whitesmoke;
 }
+
 
 #currentmusic{
     text-align: right;
+  color:whitesmoke;
+    text-decoration: dotted;
 
 }
+#musicgallery {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 2em;
+    }   
+
 #spotify {
     text-align: right;
 }
 
 
 .index {
-    font-family: arial;
+    color:white;
+    
 }
+
