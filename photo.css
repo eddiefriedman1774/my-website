@@ -22,13 +22,13 @@ figure {
 }
 
 figcaption {
-  padding:2px;
+  padding:1.3em;
   text-align:center;
 }
 
 .index {
   /* font-family: Arial, Arial, Helvetica, sans-serif; */
-  font-size: 11px;
+  font-size: 1.1;
   padding: 11px;
   display:block;
 }
