@@ -1,13 +1,12 @@
 body {
-  font-family: Arial;
+  font-family: system-ui; 
   margin: 0;
-  font-size: 10x;
+  font-size: 20px;
   padding:15px;
   background-color: #d9dcd6;
 }
 
 img {
-  /* float: left; */
   width: 100%;
   padding:10px;
   background-color:darkslateblue;
@@ -15,10 +14,19 @@ img {
   object-fit: cover;
 }
 
+#image-gallery {
+  text-align:center;
+}
+
 figure {
   /* margin: auto; */
   display: inline-block;
   width: 350px;
+}
+
+#photobox {
+  font-size:20px;
+  text-align:center;
 }
 
 figcaption {

@@ -1,5 +1,5 @@
 .nav-placeholder{
-    font-family:arial;
+    font-family:system-ui;
     margin:0;
     color:#fff;
     padding:25px;
@@ -7,10 +7,10 @@
     font-size:large;
     background-image:linear-gradient(#fff,#104076);
 }
-
+//** make everything rounded *// 
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:system-ui;
     font-size: 1.5em;
     text-align: right;
     background-image:linear-gradient(rgb(188, 192, 246),rgb(5, 62, 168));
@@ -28,6 +28,8 @@ body {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    gap: 2em;
+   display:flex;
+    
     }   
 
 #spotify {
