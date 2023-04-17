@@ -1,11 +1,10 @@
 .nav-placeholder{
     font-family:system-ui;
     margin:0;
-    color:#fff;
+    color:#000000;
     padding:25px;
     display:flex;
     font-size:large;
-    background-image:linear-gradient(#fff,#104076);
 }
 //** make everything rounded *// 
 
@@ -14,13 +13,11 @@ body {
     font-size: 1.5em;
     text-align: right;
     background-image:linear-gradient(rgb(188, 192, 246),rgb(5, 62, 168));
-    color:whitesmoke;
 }
 
 
 #currentmusic{
     text-align: right;
-  color:whitesmoke;
     text-decoration: dotted;
 
 }
@@ -38,7 +35,6 @@ body {
 
 
 .index {
-    color:white;
     
 }
 

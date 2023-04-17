@@ -5,7 +5,49 @@
 .EFheader {
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   
-  
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size:35px;
+  text-decoration:none;  
+  font-family:system-ui;
+  margin:0;
+  padding:25px;
+  letter-spacing: 4px;
+  line-height: 50px;
+  text-align:center;
+  font-size:30px;
+  color:white;
+
+}
+#nav-placeholder {
+  color:white;
+}
+
+a{
+  text-decoration:none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 20px;
+   color:white;
+}
+
+.dropdown-content {
+  display: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  text-decoration:none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  text-decoration:none;
 }
 
 
@@ -14,9 +56,24 @@ body {
   margin: 0;
   font-size: 10px;
   padding:15px;
-  background-color: #d9dcd6;  
-resize: flex;
+  resize: flex;
+  background-image: url("./assets/wallpaper.jpeg"); 
+  background-size: cover
 }
+
+
+body::after {
+  content: "";
+  background: url(./assets/wallpaper.jpeg);
+  opacity: 0.70;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
 
 .main-header {
   display:flex;
@@ -27,70 +84,33 @@ resize: flex;
 
 header {
   text-align: right;
-  background: #57068c;
-  color: #fff;
+  color: #ffffff;
   font-size: large;
-  background-image: linear-gradient(#57068c,#fff);
-}
-.quote:hover {
-  color:greenyellow;
-
-}
-nav {
-  font-family:system-ui;
-  margin:0;
-  color:#fff;
-  padding:25px;
-  display:flex;
-  background-color: #104076 ;
-  font-size:large;
-  background-image:linear-gradient(#fff,#104076);
 }
 
 main {
-  font-size:2em;
+  font-size:20px;
+  font-weight:bolder;
   font-family:system-ui;
+  letter-spacing: 4px;
+  line-height: 50px;
   margin:0;
   color:black;
-  background-color:beige ;
   display:auto;
   text-align: center;
+  padding-top:120px;
+  padding-right:200px;
+  padding-left:200px;
+  background-color: #b2cee7;
+  opacity: 0.5;
   
 }
 
-#ProfilePic {
-  margin:auto;
-  padding:auto;
-  display:auto;
-  height:230px;
-  width:230px;
-}
 
-#music {
-  font-size: 2em;
-  display: block;
-  background-color: darkseagreen;
-  text-align: center;
-  
-}
-
-#drake {
-    padding: auto;
-    height:20em;
-    margin-top: 1em;
-    margin-bottom:none;
-}
-
-#h4{
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-  text
-}
 
 footer {
   font-size:19px;
   font-family:system-ui;
-  background-color: aliceblue;
   display:flex;
   margin-top:none;
   padding:15px;   
