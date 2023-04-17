@@ -19,6 +19,8 @@ body {
 #currentmusic{
     text-align: right;
     text-decoration: dotted;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:center;
 
 }
 #musicgallery {
@@ -30,11 +32,21 @@ body {
     }   
 
 #spotify {
-    text-align: right;
+    text-decoration:none;
+    color:black;
+    font-size:35px;
+    font-style: italic;
+
 }
 
 
 .index {
-    
+ text-align:center;
 }
 
+a{
+    text-decoration:none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:25px;
+    color:black;
+}
