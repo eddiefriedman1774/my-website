@@ -9,8 +9,9 @@
     <title>EDWARD FRIEDMAN | WEBSITE</title>
     <link rel="stylesheet" href="./style.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="./script.js"></script>
 </head>
-<body>
+<body onload="bodyLoad()">
 
 
 <header class="main-header" >
@@ -25,9 +26,9 @@
         });
    </script>        
 </div>
-<div class="dropdown">
+<div id="dropdown" class="dropdown">
   <span>Menu</span>
-  <div class="dropdown-content">
+  <div class="dropdown-content" id="dropdown-content">
     <a href="./aboutme.html" target="_blank">About me</a>
     <br>
     <a href="https://www.linkedin.com/in/edward-friedman-699377225/" target="_blank">Linkedin</a>
