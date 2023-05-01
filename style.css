@@ -4,7 +4,7 @@
 
 .EFheader {
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size:2vw;
+  font-size:1.10vw;
 }
 .dropdown {
   position: relative;
@@ -24,6 +24,7 @@
 #nav-placeholder {
   font-size:2vw;
   color:rgb(0, 0, 0);
+
 }
 
 a{
@@ -43,6 +44,9 @@ a{
   z-index: 1;
   text-decoration:none;
 }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 .dropdown-content {
   text-decoration:none;
@@ -57,6 +61,11 @@ body {
   resize: flex;
 }
 
+nav{
+  word-spacing: 5px;
+  letter-spacing: 5px;
+
+}
 
 
 
@@ -64,11 +73,12 @@ body {
   display:flex;
   justify-content:space-around;
   padding:15px;
-  font-family:2vw; 
+  font-size:0.85vw;
+
 }
 
 header {
-  text-align: right;
+
   color: #000000;}
 
 main {
@@ -84,8 +94,6 @@ main {
   padding-top:120px;
   padding-right:200px;
   padding-left:200px;
-  background-color: #b2cee7;
-  opacity: 0.5;
   
 }
 
